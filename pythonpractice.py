@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 import sys 
-
+import functools as ft 
+# from functools import reduce
 
 # Simple letter removal kata is not so simple. 
 # Let's remember to define precisely what we want this program to do:
@@ -44,12 +45,79 @@ import sys
 
 # what if I used nested functions for this kata? I need a function to remove the current letter, a, b, or c etc, but I also need a function to check the word for the given letter and subtract 1 from k if a letter is removed. THe inner function can take a letter to be removed as input. 
 
-prac = lambda x,y : x**y
+# prac = lambda x,y : x**y
 
-print(prac(2,3))
+# print(prac(2,3))
 
-nums = [1, 2, 3, 4]
+# nums = [1, 2, 3, 4]
 
-double = map(lambda num: num*2, nums)
+# double = map(lambda num: num*2, nums)
 
-print(list(double))
+# print(list(double))
+
+# names = ['sean', 'joe', 'john']
+# doublenames = filter(lambda str: len(str)<4, names)
+# ldoublenames = list(doublenames)
+# print(ldoublenames)
+
+# lis = [1,2,3,4,5,6]
+# print ("The maximum element of the list is : ",end="") 
+# print (ft.reduce(lambda a,b : a if a > b else b,lis)) 
+
+# f = lambda x,y: x * y
+
+# print(f(3,3))
+
+
+# class Dog:    
+#     def woof(self):
+#         return 'woof!'
+
+# t = Dog()
+# print(t.woof())
+
+
+# class Planet():
+#     def __init__(self, name):
+#         self.name = name
+        
+# m = Planet('mercury')
+
+# m.name
+
+# s = "animal-horse"
+
+# print(s.split("-"))
+
+# d = {
+#     'apple': 1,
+#     'banana': 2,
+#     'coconut': 3
+# }
+
+# d['durian'] = 4
+
+# print(d)
+
+# def add_many(*args):
+#     s = 0
+#     for n in args:
+#         s += n
+#     print(s)
+
+# print(add_many(100, 50, 3))
+
+
+# book = {
+#     'title': 'The Giver',
+#     'author': 'Lois Lowry',
+#     'rating': 4.13,
+#     'format': 'paperback'
+# }
+
+# del book['format']
+
+# print(book)
+
+
+print([i for i in range(5) i >=3 ])
