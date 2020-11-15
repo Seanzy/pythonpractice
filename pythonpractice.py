@@ -5,7 +5,11 @@ import numpy as np
 import yfinance as yf
 import sys 
 import functools as ft 
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+import matplotlib.pylab
 # from functools import reduce
+matplotlib.pylab.show(block=False)
 
 # Simple letter removal kata is not so simple. 
 # Let's remember to define precisely what we want this program to do:
@@ -120,4 +124,43 @@ import functools as ft
 # print(book)
 
 
-print([i for i in range(5) i >=3 ])
+# col_names = ['Symbol', 'High', 'Low']
+# symbols = ['ABC', 'VEEV', 'FIVN']
+# highs = [106, 275, 146]
+# lows = [103, 262, 140]
+# list_cols = [symbols, highs, lows]
+
+# zipped = list(zip(col_names, list_cols))
+
+# # print(zipped)
+
+# data = dict(zipped)
+# # print(data)
+
+# table = pd.DataFrame(data)
+# print(table)
+
+# data = {'symbols': symbols, 'side': 'buy'}
+# data = {'symbols': symbols, 'High': highs, 'Low': lows, 'side': 'buy'}
+# df = pd.DataFrame(data)
+# print(df)
+
+# print('Changing index labels')
+# df.index = symbols
+# # df.columns = ['a', 'b', 'c', 'd']
+# print(df)
+
+# out_csv = 'stocks233.csv'
+# df.to_csv(out_csv)
+
+#not working yet
+# out_xlsx = 'stocks233.xlsx'
+# ew = 'C:\\Users\\sdgur\\Documents\\Projects\\Python Projects\\pythonpractice'
+# df.to_excel(ew, out_xlsx)
+
+stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
+print(stocks.head(3))
+lowarr=stocks['Low'].values
+print(type(lowarr))
+print(plt.plot(lowarr))
+plt.show()
