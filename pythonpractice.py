@@ -5,8 +5,8 @@ import numpy as np
 import yfinance as yf
 import sys 
 import functools as ft 
-import matplotlib.pyplot as plt
 import matplotlib as mpl
+import matplotlib.pyplot as plt #submodules are not always imported by default
 import matplotlib.pylab
 # from functools import reduce
 matplotlib.pylab.show(block=False)
