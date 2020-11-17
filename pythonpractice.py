@@ -158,9 +158,10 @@ matplotlib.pylab.show(block=False)
 # ew = 'C:\\Users\\sdgur\\Documents\\Projects\\Python Projects\\pythonpractice'
 # df.to_excel(ew, out_xlsx)
 
-stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
-print(stocks.head(3))
-lowarr=stocks['Low'].values
-print(type(lowarr))
-print(plt.plot(lowarr))
-plt.show()
+# stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
+# print(stocks.head(3))
+# lowarr=stocks['Low'].values
+# print(type(lowarr))
+# print(plt.plot(lowarr))
+# plt.show()
+
