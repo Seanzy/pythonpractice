@@ -3,3 +3,4 @@
 11/16/20 - Started work on my capstone project
 11/18/20 - Improving with dataframes. Refactoring javascript programs into python. 
 11/19/20 - Updated trade alerter again (proprietary)
+11/20/20 - Continuing work on dataframes. 
