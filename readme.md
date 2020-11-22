@@ -5,3 +5,4 @@
 11/19/20 - Updated trade alerter again (proprietary)
 11/20/20 - Continuing work on dataframes. 
 11/21/20 - Continuing work on dataframes. 
+11/22/20 - Completing cert soon. 
