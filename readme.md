@@ -6,3 +6,4 @@
 11/20/20 - Continuing work on dataframes. 
 11/21/20 - Continuing work on dataframes. 
 11/22/20 - Completing cert soon. 
+11/23/20 - hanging christmas lights
