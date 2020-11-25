@@ -7,3 +7,4 @@
 11/21/20 - Continuing work on dataframes. 
 11/22/20 - Completing cert soon. 
 11/23/20 - hanging christmas lights
+11/24/20 - Continuing to work on my trading program
