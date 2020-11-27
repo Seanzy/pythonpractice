@@ -8,3 +8,4 @@
 11/22/20 - Completing cert soon. 
 11/23/20 - hanging christmas lights
 11/24/20 - Continuing to work on my trading program
+11/27/20 - I am getting my trade alerter working today (refactoring JS into python) and journaling about 2020 to understand myself better. 
