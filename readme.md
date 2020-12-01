@@ -11,3 +11,4 @@
 11/27/20 - I am getting my trade alerter working today (refactoring JS into python) and journaling about 2020 to understand myself better. 
 11/28/20 - setting schedules and completed interview with mentor
 11/30/20 - updated trading program.
+12/1/20 - made sorting functions more modular. 
