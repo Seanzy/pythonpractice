@@ -124,11 +124,11 @@ matplotlib.pylab.show(block=False)
 # print(book)
 
 
-# col_names = ['Symbol', 'High', 'Low']
-# symbols = ['ABC', 'VEEV', 'FIVN']
-# highs = [106, 275, 146]
-# lows = [103, 262, 140]
-# list_cols = [symbols, highs, lows]
+col_names = ['Symbol', 'High', 'Low']
+symbols = ['ABC', 'VEEV', 'FIVN']
+highs = [106, 275, 146]
+lows = [103, 262, 140]
+list_cols = [symbols, highs, lows]
 
 # zipped = list(zip(col_names, list_cols))
 
@@ -158,11 +158,18 @@ matplotlib.pylab.show(block=False)
 # ew = 'C:\\Users\\sdgur\\Documents\\Projects\\Python Projects\\pythonpractice'
 # df.to_excel(ew, out_xlsx)
 
-# stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
-# print(stocks.head(3))
+stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
+print(stocks.head(3))
 # lowarr=stocks['Low'].values
 # print(type(lowarr))
 # print(plt.plot(lowarr))
 # plt.show()
 
- 
+# 12/2/20
+# Indexing with data frames  
+# print(stocks.floordiv(2))
+# print(stocks['High'])
+# print(type(stocks['High']))
+# print(stocks.iloc[:,2])
+print(stocks.loc['2020-11-13','High'])
+

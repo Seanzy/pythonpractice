@@ -109,3 +109,8 @@ In [6]:
 election[['voters','total']]
 
 #Slicing Data Frames
+
+#Filtering Data Frames
+
+#Transforming Data Frames
+use df.floordiv(12) or np.floor_divide(12)
