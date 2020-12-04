@@ -159,7 +159,8 @@ list_cols = [symbols, highs, lows]
 # df.to_excel(ew, out_xlsx)
 
 stocks = pd.read_csv("prac.csv", index_col='Date', parse_dates=True)
-print(stocks.head(3))
+# stocks = pd.read_csv("prac.csv", index_col='Date')
+print(stocks)
 # lowarr=stocks['Low'].values
 # print(type(lowarr))
 # print(plt.plot(lowarr))
@@ -171,5 +172,13 @@ print(stocks.head(3))
 # print(stocks['High'])
 # print(type(stocks['High']))
 # print(stocks.iloc[:,2])
-print(stocks.loc['2020-11-13','High'])
+# print(stocks.loc['2020-11-13','High'])
+
+#Fancy Indexing
+stocks = stocks.set_index(['Symbol', 'High'])
+print(stocks)
+stocks = stocks.sort_index()
+print(stocks)
+# print(stocks.index.name)
+# print(stocks.index.names)
 
