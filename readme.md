@@ -135,3 +135,5 @@ Pay particular attention to the tuple (slice(None), slice('2016-10-03', '2016-10
 In this exercise, you will use your sales DataFrame to do some increasingly complex lookups. Remember that you can type sales.head() in the console to review the structure of the DataFrame!
 
 #Pivoting DataFrames
+
+12/5/20 TIME FOR CROISSANT! 
