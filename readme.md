@@ -136,4 +136,5 @@ In this exercise, you will use your sales DataFrame to do some increasingly comp
 
 #Pivoting DataFrames
 
-12/5/20 TIME FOR CROISSANT! 
+12/5/20 Time for a break! 
+12/6/20 Completing dataframe work
