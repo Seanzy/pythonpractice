@@ -139,3 +139,4 @@ In this exercise, you will use your sales DataFrame to do some increasingly comp
 12/5/20 Time for a break! 
 12/6/20 Completing dataframe work
 12/7/20 - Completing dataframe work and working on trading program
+12/8/20 - built a new automated data wrangler in python
